@@ -15,7 +15,8 @@ public class MainClass {
 		
         
         Employee user = new Employee();
-		user.setUsername("test");
+        user.setId(102);
+		user.setUsername("jsysiak");
 		user.setPassword("test");
 
 		session.persist(user);
